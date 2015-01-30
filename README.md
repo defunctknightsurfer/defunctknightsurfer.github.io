@@ -1,1 +1,2 @@
-# pkringle.github.io
+# kringles.org-staging
+jekyll setup for kringles.org
