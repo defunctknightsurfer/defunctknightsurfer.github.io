@@ -6,20 +6,31 @@
 </description>
     <link>http://www.kringles.org/</link>
     <atom:link href="http://www.kringles.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Jan 2015 10:48:14 -0800</pubDate>
-    <lastBuildDate>Sat, 31 Jan 2015 10:48:14 -0800</lastBuildDate>
+    <pubDate>Sat, 31 Jan 2015 12:33:19 -0800</pubDate>
+    <lastBuildDate>Sat, 31 Jan 2015 12:33:19 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Moab Videos Uploaded</title>
+        <description>&lt;p&gt;I have been wanting to do this for a while, and finally got around to it.  I have uploaded 2009, 2010, 2011, and 2012 Moab Videos to my &lt;a href=&quot;https://www.youtube.com/user/pkringle/&quot;&gt;YouTube Channel&lt;/a&gt;. Sadly, 2015 will not happen this year, but we are planning on 2016 trip.  2016 should be epic as we have some surprises planned for that year! &lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 04:03:28 -0800</pubDate>
+        <link>http://www.kringles.org/jeep/2015/01/31/moab-videos.html</link>
+        <guid isPermaLink="true">http://www.kringles.org/jeep/2015/01/31/moab-videos.html</guid>
+        
+        
+        <category>jeep</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Kringles.org First Post!</title>
         <description>&lt;p&gt;Attempting to setup a personal site again.  It has been a while since I have done this.  I am hoping to post things that I have done or discovered in either my personal or professional life.  Stay tuned for updates.&lt;/p&gt;
 </description>
         <pubDate>Fri, 30 Jan 2015 02:22:56 -0800</pubDate>
-        <link>http://www.kringles.org/kringles.org/site/2015/01/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://www.kringles.org/kringles.org/site/2015/01/30/welcome-to-jekyll.html</guid>
+        <link>http://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html</guid>
         
-        
-        <category>kringles.org</category>
         
         <category>site</category>
         
