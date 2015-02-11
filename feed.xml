@@ -6,9 +6,127 @@
 </description>
     <link>http://www.kringles.org/</link>
     <atom:link href="http://www.kringles.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Jan 2015 12:33:19 -0800</pubDate>
-    <lastBuildDate>Sat, 31 Jan 2015 12:33:19 -0800</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 14:50:47 -0800</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 14:50:47 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Linux ZFS &amp; resizing single disk pool</title>
+        <description>&lt;p&gt;In a virutal enviorment I have found that I still like a lot of the features of zfs, but I do not end the RAID functionaily.  With that I had the need to expand a single disk zpool due to space issues.  In the past, we simply just added a second disk creating a RAID 0.  But I knew there was a better way.  ZFS on Linux does support resizing or autoexpand on a single disk zpool.  To do this, do the following steps.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create or Set your zpool with autoextend on (it defaults to off)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;zpool set autoexpand=on tank&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Via your Virtual Host tools, extend the disk in question to the size you need.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now on your VM, get the disk name in your zpool&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;zpool status&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Run parted on that disk to resize the partition.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;parted /dev/sdb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Now simply use resizepart and it will default to the max &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;(parted) resizepart                                                       
+Partition number? 1                                                       
+End?  [X.XGB]?                                                           
+(parted) quit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;zpool online -e tank sdb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You should now notice that your partition is now larger&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;df -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 01:15:28 -0800</pubDate>
+        <link>http://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html</link>
+        <guid isPermaLink="true">http://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html</guid>
+        
+        
+        <category>linux</category>
+        
+        <category>zfs</category>
+        
+        <category>vmware</category>
+        
+      </item>
+    
+      <item>
+        <title>Install Kenwood TM-D700 in a Jeep JK</title>
+        <description>&lt;p&gt;I have had my ham radio license (WØPGK) for 13 years, and have always had a mobile station installed on my vehicles.  Over the years, I have upgraded both my vehicles and my radio equiptment.  Today I am driving a 2008 Jeep JK Rubicon and running a Kenwood TM-D700.  I really don’t have a step by step here, but I can post what I have done, with photos so you can get an idea on how to install it on your own Jeep.  &lt;/p&gt;
+
+&lt;p&gt;To start with, I will show you the center console.  You can see that I ran an external speaker up here since the unit speaker is under the seat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_28_10.jpg?m=1423691821&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I placed the ham radio mic to the left, which is still easy to reach&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_27_28.jpg?m=1423691824&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I extended the mic cable with a RJ45 connector &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_27_36.jpg?m=1423691825&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I located the the radio base unit under the passenger seat.  I would like to change this in the furture as this has no water proofing if I ever get into water deep enough to reach this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_31_02.jpg?m=1423691809&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As for power source, I have one lead connected to the battery.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_38_45.jpg?m=1423691798&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I run that power lead through the firewall through a well know access hole next to the door&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_35_44.jpg?m=1423691799&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The power is connected to a Automatic power switch that power everything down 10 minutes after the engine has been shut off.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_33_00.jpg?m=1423691808&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The power is then routed to a distribution block which connects the GPS, phone changer, CB radio and ham radio.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_32_03.jpg?m=1423691810&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As for the mentioned GPS, I have it up on top of one of the A pillers tucked away and out of sight.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2011_08_21.jpg?m=1423691798&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note, that everything uses Power Poles which makes connecting power lead extremelly easy.  These are not required, but recommmend.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 Feb 2015 02:52:28 -0800</pubDate>
+        <link>http://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html</link>
+        <guid isPermaLink="true">http://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html</guid>
+        
+        
+        <category>jeep</category>
+        
+        <category>ham</category>
+        
+        <category>radio</category>
+        
+      </item>
     
       <item>
         <title>Moab Videos Uploaded</title>

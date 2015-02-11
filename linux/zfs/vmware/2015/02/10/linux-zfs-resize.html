@@ -16,12 +16,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>KRINGLES.ORG</title>
-  <meta name="description" content="Welcome to my personal website, kringles.org.  Here I will have some simple information about myself and try to update on finds and things I have done.  Check back offen to see what I have been up too.
-">
+  <title>Linux ZFS & resizing single disk pool</title>
+  <meta name="description" content="In a virutal enviorment I have found that I still like a lot of the features of zfs, but I do not end the RAID functionaily.  With that I had the need to exp...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.kringles.org/">
+  <link rel="canonical" href="http://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html">
   <link rel="alternate" type="application/rss+xml" title="KRINGLES.ORG" href="http://www.kringles.org/feed.xml" />
 </head>
 
@@ -69,47 +68,62 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Linux ZFS & resizing single disk pool</h1>
+    <p class="post-meta">Feb 10, 2015</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Feb 10, 2015</span>
+  <article class="post-content">
+    <p>In a virutal enviorment I have found that I still like a lot of the features of zfs, but I do not end the RAID functionaily.  With that I had the need to expand a single disk zpool due to space issues.  In the past, we simply just added a second disk creating a RAID 0.  But I knew there was a better way.  ZFS on Linux does support resizing or autoexpand on a single disk zpool.  To do this, do the following steps.</p>
 
-        <h2>
-          <a class="post-link" href="/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html">Linux ZFS & resizing single disk pool</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 3, 2015</span>
+<ol>
+  <li>Create or Set your zpool with autoextend on (it defaults to off)</li>
+</ol>
 
-        <h2>
-          <a class="post-link" href="/jeep/ham/radio/2015/02/03/jeep-ham-radio.html">Install Kenwood TM-D700 in a Jeep JK</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 31, 2015</span>
+<div class="highlight"><pre><code class="language-html" data-lang="html">zpool set autoexpand=on tank</code></pre></div>
 
-        <h2>
-          <a class="post-link" href="/jeep/2015/01/31/moab-videos.html">Moab Videos Uploaded</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 30, 2015</span>
+<ol>
+  <li>
+    <p>Via your Virtual Host tools, extend the disk in question to the size you need.</p>
+  </li>
+  <li>
+    <p>Now on your VM, get the disk name in your zpool</p>
+  </li>
+</ol>
 
-        <h2>
-          <a class="post-link" href="/site/2015/01/30/welcome-to-jekyll.html">Welcome to Kringles.org First Post!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<div class="highlight"><pre><code class="language-html" data-lang="html">zpool status</code></pre></div>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<ol>
+  <li>Run parted on that disk to resize the partition.</li>
+</ol>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">parted /dev/sdb</code></pre></div>
+
+<ol>
+  <li>Now simply use resizepart and it will default to the max </li>
+</ol>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">(parted) resizepart                                                       
+Partition number? 1                                                       
+End?  [X.XGB]?                                                           
+(parted) quit</code></pre></div>
+
+<ol>
+  <li>Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.</li>
+</ol>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">zpool online -e tank sdb</code></pre></div>
+
+<ol>
+  <li>You should now notice that your partition is now larger</li>
+</ol>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">df -h</code></pre></div>
+
+
+  </article>
 
 </div>
 
