@@ -82,42 +82,48 @@
   <li>
     <p>Create or Set your zpool with autoextend on (it defaults to off)</p>
 
-    <pre><code> zpool set autoexpand=on tank
+    <div class="highlighter-rouge"><pre class="highlight"><code> zpool set autoexpand=on tank
 </code></pre>
+    </div>
   </li>
   <li>Via your Virtual Host tools, extend the disk in question to the size you need.</li>
   <li>
     <p>Now on your VM, get the disk name in your zpool</p>
 
-    <pre><code> zpool status
+    <div class="highlighter-rouge"><pre class="highlight"><code> zpool status
 </code></pre>
+    </div>
   </li>
   <li>
     <p>Run parted on that disk to resize the partition.</p>
 
-    <pre><code> parted /dev/sdb
+    <div class="highlighter-rouge"><pre class="highlight"><code> parted /dev/sdb
 </code></pre>
+    </div>
   </li>
   <li>
-    <p>Now simply use resizepart and it will default to the max </p>
+    <p>Now simply use resizepart and it will default to the max</p>
 
-    <pre><code> (parted) resizepart                                                       
+    <div class="highlighter-rouge"><pre class="highlight"><code> (parted) resizepart                                                       
  Partition number? 1                                                       
  End?  [X.XGB]?                                                           
  (parted) quit   
 </code></pre>
+    </div>
   </li>
   <li>
     <p>Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.</p>
 
-    <pre><code> zpool online -e tank sdb
+    <div class="highlighter-rouge"><pre class="highlight"><code> zpool online -e tank sdb
 </code></pre>
+    </div>
   </li>
   <li>
     <p>You should now notice that your partition is now larger</p>
 
-    <pre><code> df -h
+    <div class="highlighter-rouge"><pre class="highlight"><code> df -h
 </code></pre>
+    </div>
   </li>
 </ol>
 
@@ -141,8 +147,7 @@
           <li>KRINGLES.ORG</li>
           <li><a href="mailto:peter@kringles.org">peter@kringles.org</a></li>
 <BR>
-<object width="290" height="130"><param name="movie" value="http://www.wunderground.com/swf/pws_mini_rf_nc.swf?station=KWASNOHO49&freq=&units=english&lang=EN" /><embed src="http://www.wunderground.com/swf/pws_mini_rf_nc.swf?station=KWASNOHO49&freq=&units=english&lang=EN" type="application/x-shockwave-flash" width="290" height="130" /></object>
-        </ul>
+<a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KWASNOHO49"><img src="http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=pws250_both&weatherstationcount=KWASNOHO49" width="250" height="150" border="0" alt="Weather Underground PWS KWASNOHO49" /></a>        </ul>
       </div>
 
       <div class="footer-col  footer-col-2">

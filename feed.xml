@@ -6,9 +6,9 @@
 </description>
     <link>http://www.kringles.org/</link>
     <atom:link href="http://www.kringles.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2015 13:57:09 -0700</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2015 13:57:09 -0700</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Thu, 11 Aug 2016 11:34:34 -0700</pubDate>
+    <lastBuildDate>Thu, 11 Aug 2016 11:34:34 -0700</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Project Jeep RC rock crawling!</title>
@@ -58,7 +58,7 @@
         <title>Axial Jeep RC build</title>
         <description>&lt;p&gt;I went out and bought an Axial SXC-10 Jeep kit.  For the last 2 weeks I have been working on Jeep kit, with the goal to be, make the Jeep look as much like my real Jeep as possible.&lt;/p&gt;
 
-&lt;p&gt;I a few days ago I completed assembled the frame, axles and transmission.  &lt;/p&gt;
+&lt;p&gt;I a few days ago I completed assembled the frame, axles and transmission.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/JeepRC/2015-02-28%2020_46_28.jpg?m=1425937734&quot; /&gt;&lt;/p&gt;
 
@@ -98,42 +98,48 @@
   &lt;li&gt;
     &lt;p&gt;Create or Set your zpool with autoextend on (it defaults to off)&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; zpool set autoexpand=on tank
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool set autoexpand=on tank
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;Via your Virtual Host tools, extend the disk in question to the size you need.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Now on your VM, get the disk name in your zpool&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; zpool status
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool status
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Run parted on that disk to resize the partition.&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; parted /dev/sdb
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; parted /dev/sdb
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Now simply use resizepart and it will default to the max &lt;/p&gt;
+    &lt;p&gt;Now simply use resizepart and it will default to the max&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; (parted) resizepart                                                       
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; (parted) resizepart                                                       
  Partition number? 1                                                       
  End?  [X.XGB]?                                                           
  (parted) quit   
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; zpool online -e tank sdb
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool online -e tank sdb
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;You should now notice that your partition is now larger&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; df -h
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; df -h
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -153,7 +159,7 @@
     
       <item>
         <title>Install Kenwood TM-D700 in a Jeep JK</title>
-        <description>&lt;p&gt;I have had my ham radio license (WØPGK) for 13 years, and have always had a mobile station installed on my vehicles.  Over the years, I have upgraded both my vehicles and my radio equiptment.  Today I am driving a 2008 Jeep JK Rubicon and running a Kenwood TM-D700.  I really don’t have a step by step here, but I can post what I have done, with photos so you can get an idea on how to install it on your own Jeep.  &lt;/p&gt;
+        <description>&lt;p&gt;I have had my ham radio license (WØPGK) for 13 years, and have always had a mobile station installed on my vehicles.  Over the years, I have upgraded both my vehicles and my radio equiptment.  Today I am driving a 2008 Jeep JK Rubicon and running a Kenwood TM-D700.  I really don’t have a step by step here, but I can post what I have done, with photos so you can get an idea on how to install it on your own Jeep.&lt;/p&gt;
 
 &lt;p&gt;To start with, I will show you the center console.  You can see that I ran an external speaker up here since the unit speaker is under the seat.&lt;/p&gt;
 
@@ -163,7 +169,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_27_28.jpg?m=1423691824&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I extended the mic cable with a RJ45 connector &lt;/p&gt;
+&lt;p&gt;I extended the mic cable with a RJ45 connector&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2009_27_36.jpg?m=1423691825&quot; /&gt;&lt;/p&gt;
 
@@ -209,7 +215,7 @@
     
       <item>
         <title>Moab Videos Uploaded</title>
-        <description>&lt;p&gt;I have been wanting to do this for a while, and finally got around to it.  I have uploaded 2009, 2010, 2011, and 2012 Moab Videos to my &lt;a href=&quot;https://www.youtube.com/user/pkringle/&quot;&gt;YouTube Channel&lt;/a&gt;. Sadly, 2015 will not happen this year, but we are planning on 2016 trip.  2016 should be epic as we have some surprises planned for that year! &lt;/p&gt;
+        <description>&lt;p&gt;I have been wanting to do this for a while, and finally got around to it.  I have uploaded 2009, 2010, 2011, and 2012 Moab Videos to my &lt;a href=&quot;https://www.youtube.com/user/pkringle/&quot;&gt;YouTube Channel&lt;/a&gt;. Sadly, 2015 will not happen this year, but we are planning on 2016 trip.  2016 should be epic as we have some surprises planned for that year!&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Jan 2015 04:03:28 -0800</pubDate>
         <link>http://www.kringles.org/jeep/2015/01/31/moab-videos.html</link>
