@@ -20,8 +20,8 @@
   <meta name="description" content="In a virutal enviorment I have found that I still like a lot of the features of zfs, but I do not end the RAID functionaily.  With that I had the need to exp...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html">
-  <link rel="alternate" type="application/rss+xml" title="KRINGLES.ORG" href="http://www.kringles.org/feed.xml" />
+  <link rel="canonical" href="https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html">
+  <link rel="alternate" type="application/rss+xml" title="KRINGLES.ORG" href="https://www.kringles.org/feed.xml" />
 </head>
 
 
@@ -82,48 +82,42 @@
   <li>
     <p>Create or Set your zpool with autoextend on (it defaults to off)</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> zpool set autoexpand=on tank
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool set autoexpand=on tank
+</code></pre></div>    </div>
   </li>
   <li>Via your Virtual Host tools, extend the disk in question to the size you need.</li>
   <li>
     <p>Now on your VM, get the disk name in your zpool</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> zpool status
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool status
+</code></pre></div>    </div>
   </li>
   <li>
     <p>Run parted on that disk to resize the partition.</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> parted /dev/sdb
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> parted /dev/sdb
+</code></pre></div>    </div>
   </li>
   <li>
     <p>Now simply use resizepart and it will default to the max</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> (parted) resizepart                                                       
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> (parted) resizepart                                                       
  Partition number? 1                                                       
  End?  [X.XGB]?                                                           
  (parted) quit   
-</code></pre>
-    </div>
+</code></pre></div>    </div>
   </li>
   <li>
     <p>Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> zpool online -e tank sdb
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool online -e tank sdb
+</code></pre></div>    </div>
   </li>
   <li>
     <p>You should now notice that your partition is now larger</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code> df -h
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> df -h
+</code></pre></div>    </div>
   </li>
 </ol>
 
@@ -147,7 +141,7 @@
           <li>KRINGLES.ORG</li>
           <li><a href="mailto:peter@kringles.org">peter@kringles.org</a></li>
 <BR>
-<a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KWASNOHO49"><img src="http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=pws250_both&weatherstationcount=KWASNOHO49" width="250" height="150" border="0" alt="Weather Underground PWS KWASNOHO49" /></a>        </ul>
+<a href="https://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KWASNOHO49"><img src="https://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=pws250_both&weatherstationcount=KWASNOHO49" width="250" height="150" border="0" alt="Weather Underground PWS KWASNOHO49" /></a>        </ul>
       </div>
 
       <div class="footer-col  footer-col-2">
@@ -177,8 +171,6 @@
     </div>
 
   </div>
-  <BR>
-<CENTER><a href="http://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!"><img src="http://www.hamqsl.com/solar101pic.php"></a></CENTER>
 </footer>
 
 
