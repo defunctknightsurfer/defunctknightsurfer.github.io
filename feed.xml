@@ -6,9 +6,9 @@
 </description>
     <link>https://www.kringles.org/</link>
     <atom:link href="https://www.kringles.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Oct 2019 18:27:50 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Oct 2019 18:27:50 +0000</lastBuildDate>
-    <generator>Jekyll v4.0.0</generator>
+    <pubDate>Wed, 07 Oct 2020 12:22:11 -0700</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 12:22:11 -0700</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Project Jeep RC rock crawling!</title>
@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YgFg3y79CmQ&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YgFg3y79CmQ/0.jpg&quot; alt=&quot;Project Jeep RC rock Crawling&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 12 Mar 2015 14:47:00 +0000</pubDate>
+        <pubDate>Thu, 12 Mar 2015 07:47:00 -0700</pubDate>
         <link>https://www.kringles.org/jeep/rc/2015/03/12/jeep-rc-part3.html</link>
         <guid isPermaLink="true">https://www.kringles.org/jeep/rc/2015/03/12/jeep-rc-part3.html</guid>
         
@@ -43,7 +43,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9aVrkEF-g6g&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/9aVrkEF-g6g/0.jpg&quot; alt=&quot;Project Jeep RC&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Mar 2015 14:47:00 +0000</pubDate>
+        <pubDate>Wed, 11 Mar 2015 07:47:00 -0700</pubDate>
         <link>https://www.kringles.org/jeep/rc/2015/03/11/jeep-rc-part2.html</link>
         <guid isPermaLink="true">https://www.kringles.org/jeep/rc/2015/03/11/jeep-rc-part2.html</guid>
         
@@ -64,7 +64,7 @@
 
 &lt;p&gt;I am currently working on painting the body and installing the electronics.  Expect to see more updates soon.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 09 Mar 2015 14:47:00 +0000</pubDate>
+        <pubDate>Mon, 09 Mar 2015 07:47:00 -0700</pubDate>
         <link>https://www.kringles.org/jeep/rc/2015/03/09/jeep-rc.html</link>
         <guid isPermaLink="true">https://www.kringles.org/jeep/rc/2015/03/09/jeep-rc.html</guid>
         
@@ -79,7 +79,7 @@
         <title>Red Robin Cantina Jack going away</title>
         <description>&lt;p&gt;Found out today, that my favorite hamburger, The Cantina Jack, is being removed from the Red Robin menu.  Not only that, they won’t even have the ingredients, so you can’t even ask for it after it gets removed from the menu.  The Cantina Jack is going away.  It was a sad day.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 14:53:28 +0000</pubDate>
+        <pubDate>Wed, 11 Feb 2015 06:53:28 -0800</pubDate>
         <link>https://www.kringles.org/redrobin/food/2015/02/11/red-robin-menu-change.html</link>
         <guid isPermaLink="true">https://www.kringles.org/redrobin/food/2015/02/11/red-robin-menu-change.html</guid>
         
@@ -98,26 +98,26 @@
   &lt;li&gt;
     &lt;p&gt;Create or Set your zpool with autoextend on (it defaults to off)&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool set autoexpand=on tank
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool set autoexpand=on tank
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;Via your Virtual Host tools, extend the disk in question to the size you need.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Now on your VM, get the disk name in your zpool&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool status
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool status
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Run parted on that disk to resize the partition.&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; parted /dev/sdb
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; parted /dev/sdb
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Now simply use resizepart and it will default to the max&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; (parted) resizepart                                                       
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; (parted) resizepart                                                       
  Partition number? 1                                                       
  End?  [X.XGB]?                                                           
  (parted) quit   
@@ -126,19 +126,19 @@
   &lt;li&gt;
     &lt;p&gt;Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool online -e tank sdb
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool online -e tank sdb
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;You should now notice that your partition is now larger&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; df -h
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; df -h
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
 </description>
-        <pubDate>Tue, 10 Feb 2015 09:15:28 +0000</pubDate>
+        <pubDate>Tue, 10 Feb 2015 01:15:28 -0800</pubDate>
         <link>https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html</link>
         <guid isPermaLink="true">https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html</guid>
         
@@ -189,12 +189,12 @@
 
 &lt;p&gt;As for the mentioned GPS, I have it up on top of one of the A pillers tucked away and out of sight.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://photography.kringles.org/gallery3/var/resizes/Jeep_HamRadio_install/2014-09-14%2011_08_21.jpg?m=1423691798&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2011_08_21.jpg?m=1423691798&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Note, that everything uses Power Poles which makes connecting power lead extremelly easy.  These are not required, but recommmend.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 03 Feb 2015 10:52:28 +0000</pubDate>
+        <pubDate>Tue, 03 Feb 2015 02:52:28 -0800</pubDate>
         <link>https://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html</link>
         <guid isPermaLink="true">https://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html</guid>
         
@@ -211,7 +211,7 @@
         <title>Moab Videos Uploaded</title>
         <description>&lt;p&gt;I have been wanting to do this for a while, and finally got around to it.  I have uploaded 2009, 2010, 2011, and 2012 Moab Videos to my &lt;a href=&quot;https://www.youtube.com/user/pkringle/&quot;&gt;YouTube Channel&lt;/a&gt;. Sadly, 2015 will not happen this year, but we are planning on 2016 trip.  2016 should be epic as we have some surprises planned for that year!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Jan 2015 12:03:28 +0000</pubDate>
+        <pubDate>Sat, 31 Jan 2015 04:03:28 -0800</pubDate>
         <link>https://www.kringles.org/jeep/2015/01/31/moab-videos.html</link>
         <guid isPermaLink="true">https://www.kringles.org/jeep/2015/01/31/moab-videos.html</guid>
         
@@ -224,7 +224,7 @@
         <title>Welcome to Kringles.org First Post!</title>
         <description>&lt;p&gt;Attempting to setup a personal site again.  It has been a while since I have done this.  I am hoping to post things that I have done or discovered in either my personal or professional life.  Stay tuned for updates.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 30 Jan 2015 10:22:56 +0000</pubDate>
+        <pubDate>Fri, 30 Jan 2015 02:22:56 -0800</pubDate>
         <link>https://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">https://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html</guid>
         

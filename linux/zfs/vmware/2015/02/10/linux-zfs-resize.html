@@ -58,8 +58,6 @@
         
           
         
-          
-        
       </div>
     </nav>
 
@@ -84,26 +82,26 @@
   <li>
     <p>Create or Set your zpool with autoextend on (it defaults to off)</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool set autoexpand=on tank
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool set autoexpand=on tank
 </code></pre></div>    </div>
   </li>
   <li>Via your Virtual Host tools, extend the disk in question to the size you need.</li>
   <li>
     <p>Now on your VM, get the disk name in your zpool</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool status
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool status
 </code></pre></div>    </div>
   </li>
   <li>
     <p>Run parted on that disk to resize the partition.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> parted /dev/sdb
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> parted /dev/sdb
 </code></pre></div>    </div>
   </li>
   <li>
     <p>Now simply use resizepart and it will default to the max</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> (parted) resizepart                                                       
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> (parted) resizepart                                                       
  Partition number? 1                                                       
  End?  [X.XGB]?                                                           
  (parted) quit   
@@ -112,13 +110,13 @@
   <li>
     <p>Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool online -e tank sdb
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool online -e tank sdb
 </code></pre></div>    </div>
   </li>
   <li>
     <p>You should now notice that your partition is now larger</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> df -h
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> df -h
 </code></pre></div>    </div>
   </li>
 </ol>
