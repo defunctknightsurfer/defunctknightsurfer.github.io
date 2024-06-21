@@ -1,227 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>KRINGLES.ORG</title>
-    <description>Welcome to my personal website, kringles.org.  Here I will have some simple information about myself and try to update on finds and things I have done.  Check back offen to see what I have been up too.
-</description>
-    <link>https://www.kringles.org/</link>
-    <atom:link href="https://www.kringles.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Jun 2024 14:12:38 -0700</pubDate>
-    <lastBuildDate>Thu, 20 Jun 2024 14:12:38 -0700</lastBuildDate>
-    <generator>Jekyll v4.1.1</generator>
-    
-      <item>
-        <title>Project Jeep RC rock crawling!</title>
-        <description>&lt;p&gt;Well, had my first breakage.  Jared broke one of the axle C’s.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.kringles.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.kringles.org/" rel="alternate" type="text/html" /><updated>2024-06-21T00:26:55+00:00</updated><id>https://www.kringles.org/feed.xml</id><title type="html">KRINGLES.ORG</title><subtitle>Welcome to my personal website, kringles.org.  Here I will have some simple information about myself and try to update on finds and things I have done.  Check back offen to see what I have been up too.
+</subtitle><author><name>Peter</name></author><entry><title type="html">Project Jeep RC rock crawling!</title><link href="https://www.kringles.org/jeep/rc/2015/03/12/jeep-rc-part3.html" rel="alternate" type="text/html" title="Project Jeep RC rock crawling!" /><published>2015-03-12T14:47:00+00:00</published><updated>2015-03-12T14:47:00+00:00</updated><id>https://www.kringles.org/jeep/rc/2015/03/12/jeep-rc-part3</id><content type="html" xml:base="https://www.kringles.org/jeep/rc/2015/03/12/jeep-rc-part3.html"><![CDATA[<p>Well, had my first breakage.  Jared broke one of the axle C’s.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/JeepRC/2015-03-10%2019_57_52.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/JeepRC/2015-03-10%2019_57_52.jpg" alt="image" /></p>
 
-&lt;p&gt;Now that I have had the Jeep running a bit longer, I got some good photos and videos.&lt;/p&gt;
+<p>Now that I have had the Jeep running a bit longer, I got some good photos and videos.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/JeepRC/2015-03-11%2017_49_36.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/JeepRC/2015-03-11%2017_49_36.jpg" alt="image" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/JeepRC/2015-03-11%2017_54_56.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/JeepRC/2015-03-11%2017_54_56.jpg" alt="image" /></p>
 
-&lt;p&gt;Video!&lt;/p&gt;
+<p>Video!</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YgFg3y79CmQ&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YgFg3y79CmQ/0.jpg&quot; alt=&quot;Project Jeep RC rock Crawling&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 12 Mar 2015 07:47:00 -0700</pubDate>
-        <link>https://www.kringles.org/jeep/rc/2015/03/12/jeep-rc-part3.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/jeep/rc/2015/03/12/jeep-rc-part3.html</guid>
-        
-        
-        <category>jeep</category>
-        
-        <category>rc</category>
-        
-      </item>
-    
-      <item>
-        <title>Project Jeep RC debut run!</title>
-        <description>&lt;p&gt;Well the jeep is on all four wheels and driving!&lt;/p&gt;
+<p><a href="https://www.youtube.com/watch?v=YgFg3y79CmQ"><img src="http://img.youtube.com/vi/YgFg3y79CmQ/0.jpg" alt="Project Jeep RC rock Crawling" /></a></p>]]></content><author><name>Peter</name></author><category term="jeep" /><category term="rc" /><summary type="html"><![CDATA[Well, had my first breakage. Jared broke one of the axle C’s.]]></summary></entry><entry><title type="html">Project Jeep RC debut run!</title><link href="https://www.kringles.org/jeep/rc/2015/03/11/jeep-rc-part2.html" rel="alternate" type="text/html" title="Project Jeep RC debut run!" /><published>2015-03-11T14:47:00+00:00</published><updated>2015-03-11T14:47:00+00:00</updated><id>https://www.kringles.org/jeep/rc/2015/03/11/jeep-rc-part2</id><content type="html" xml:base="https://www.kringles.org/jeep/rc/2015/03/11/jeep-rc-part2.html"><![CDATA[<p>Well the jeep is on all four wheels and driving!</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9aVrkEF-g6g&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/9aVrkEF-g6g/0.jpg&quot; alt=&quot;Project Jeep RC&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Mar 2015 07:47:00 -0700</pubDate>
-        <link>https://www.kringles.org/jeep/rc/2015/03/11/jeep-rc-part2.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/jeep/rc/2015/03/11/jeep-rc-part2.html</guid>
-        
-        
-        <category>jeep</category>
-        
-        <category>rc</category>
-        
-      </item>
-    
-      <item>
-        <title>Axial Jeep RC build</title>
-        <description>&lt;p&gt;I went out and bought an Axial SXC-10 Jeep kit.  For the last 2 weeks I have been working on Jeep kit, with the goal to be, make the Jeep look as much like my real Jeep as possible.&lt;/p&gt;
+<p><a href="https://www.youtube.com/watch?v=9aVrkEF-g6g"><img src="http://img.youtube.com/vi/9aVrkEF-g6g/0.jpg" alt="Project Jeep RC" /></a></p>]]></content><author><name>Peter</name></author><category term="jeep" /><category term="rc" /><summary type="html"><![CDATA[Well the jeep is on all four wheels and driving!]]></summary></entry><entry><title type="html">Axial Jeep RC build</title><link href="https://www.kringles.org/jeep/rc/2015/03/09/jeep-rc.html" rel="alternate" type="text/html" title="Axial Jeep RC build" /><published>2015-03-09T14:47:00+00:00</published><updated>2015-03-09T14:47:00+00:00</updated><id>https://www.kringles.org/jeep/rc/2015/03/09/jeep-rc</id><content type="html" xml:base="https://www.kringles.org/jeep/rc/2015/03/09/jeep-rc.html"><![CDATA[<p>I went out and bought an Axial SXC-10 Jeep kit.  For the last 2 weeks I have been working on Jeep kit, with the goal to be, make the Jeep look as much like my real Jeep as possible.</p>
 
-&lt;p&gt;I a few days ago I completed assembled the frame, axles and transmission.&lt;br /&gt;
-&lt;img src=&quot;/images/JeepRC/2015-02-28%2020_46_28.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>I a few days ago I completed assembled the frame, axles and transmission.<br />
+<img src="/images/JeepRC/2015-02-28%2020_46_28.jpg" alt="image" /></p>
 
-&lt;p&gt;I am currently working on painting the body and installing the electronics.  Expect to see more updates soon.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 Mar 2015 07:47:00 -0700</pubDate>
-        <link>https://www.kringles.org/jeep/rc/2015/03/09/jeep-rc.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/jeep/rc/2015/03/09/jeep-rc.html</guid>
-        
-        
-        <category>jeep</category>
-        
-        <category>rc</category>
-        
-      </item>
-    
-      <item>
-        <title>Red Robin Cantina Jack going away</title>
-        <description>&lt;p&gt;Found out today, that my favorite hamburger, The Cantina Jack, is being removed from the Red Robin menu.  Not only that, they won’t even have the ingredients, so you can’t even ask for it after it gets removed from the menu.  The Cantina Jack is going away.  It was a sad day.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Feb 2015 06:53:28 -0800</pubDate>
-        <link>https://www.kringles.org/redrobin/food/2015/02/11/red-robin-menu-change.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/redrobin/food/2015/02/11/red-robin-menu-change.html</guid>
-        
-        
-        <category>redrobin</category>
-        
-        <category>food</category>
-        
-      </item>
-    
-      <item>
-        <title>Linux ZFS &amp; resizing single disk pool</title>
-        <description>&lt;p&gt;In a virutal enviorment I have found that I still like a lot of the features of zfs, but I do not end the RAID functionaily.  With that I had the need to expand a single disk zpool due to space issues.  In the past, we simply just added a second disk creating a RAID 0.  But I knew there was a better way.  ZFS on Linux does support resizing or autoexpand on a single disk zpool.  To do this, do the following steps.&lt;/p&gt;
+<p>I am currently working on painting the body and installing the electronics.  Expect to see more updates soon.</p>]]></content><author><name>Peter</name></author><category term="jeep" /><category term="rc" /><summary type="html"><![CDATA[I went out and bought an Axial SXC-10 Jeep kit. For the last 2 weeks I have been working on Jeep kit, with the goal to be, make the Jeep look as much like my real Jeep as possible.]]></summary></entry><entry><title type="html">Red Robin Cantina Jack going away</title><link href="https://www.kringles.org/redrobin/food/2015/02/11/red-robin-menu-change.html" rel="alternate" type="text/html" title="Red Robin Cantina Jack going away" /><published>2015-02-11T14:53:28+00:00</published><updated>2015-02-11T14:53:28+00:00</updated><id>https://www.kringles.org/redrobin/food/2015/02/11/red-robin-menu-change</id><content type="html" xml:base="https://www.kringles.org/redrobin/food/2015/02/11/red-robin-menu-change.html"><![CDATA[<p>Found out today, that my favorite hamburger, The Cantina Jack, is being removed from the Red Robin menu.  Not only that, they won’t even have the ingredients, so you can’t even ask for it after it gets removed from the menu.  The Cantina Jack is going away.  It was a sad day.</p>]]></content><author><name>Peter</name></author><category term="redrobin" /><category term="food" /><summary type="html"><![CDATA[Found out today, that my favorite hamburger, The Cantina Jack, is being removed from the Red Robin menu. Not only that, they won’t even have the ingredients, so you can’t even ask for it after it gets removed from the menu. The Cantina Jack is going away. It was a sad day.]]></summary></entry><entry><title type="html">Linux ZFS &amp;amp; resizing single disk pool</title><link href="https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html" rel="alternate" type="text/html" title="Linux ZFS &amp;amp; resizing single disk pool" /><published>2015-02-10T09:15:28+00:00</published><updated>2015-02-10T09:15:28+00:00</updated><id>https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize</id><content type="html" xml:base="https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html"><![CDATA[<p>In a virutal enviorment I have found that I still like a lot of the features of zfs, but I do not end the RAID functionaily.  With that I had the need to expand a single disk zpool due to space issues.  In the past, we simply just added a second disk creating a RAID 0.  But I knew there was a better way.  ZFS on Linux does support resizing or autoexpand on a single disk zpool.  To do this, do the following steps.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create or Set your zpool with autoextend on (it defaults to off)&lt;/p&gt;
+<ol>
+  <li>
+    <p>Create or Set your zpool with autoextend on (it defaults to off)</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool set autoexpand=on tank
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Via your Virtual Host tools, extend the disk in question to the size you need.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now on your VM, get the disk name in your zpool&lt;/p&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool set autoexpand=on tank
+</code></pre></div>    </div>
+  </li>
+  <li>Via your Virtual Host tools, extend the disk in question to the size you need.</li>
+  <li>
+    <p>Now on your VM, get the disk name in your zpool</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool status
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Run parted on that disk to resize the partition.&lt;/p&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool status
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Run parted on that disk to resize the partition.</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; parted /dev/sdb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now simply use resizepart and it will default to the max&lt;/p&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> parted /dev/sdb
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Now simply use resizepart and it will default to the max</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; (parted) resizepart                                                       
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> (parted) resizepart                                                       
  Partition number? 1                                                       
  End?  [X.XGB]?                                                           
  (parted) quit   
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.&lt;/p&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Now that you completed that, you need to just tell the zpool to expand.  You can do this online by running the following command.</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; zpool online -e tank sdb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You should now notice that your partition is now larger&lt;/p&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> zpool online -e tank sdb
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>You should now notice that your partition is now larger</p>
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; df -h
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> df -h
+</code></pre></div>    </div>
+  </li>
+</ol>]]></content><author><name>Peter</name></author><category term="linux" /><category term="zfs" /><category term="vmware" /><summary type="html"><![CDATA[In a virutal enviorment I have found that I still like a lot of the features of zfs, but I do not end the RAID functionaily. With that I had the need to expand a single disk zpool due to space issues. In the past, we simply just added a second disk creating a RAID 0. But I knew there was a better way. ZFS on Linux does support resizing or autoexpand on a single disk zpool. To do this, do the following steps.]]></summary></entry><entry><title type="html">Install Kenwood TM-D700 in a Jeep JK</title><link href="https://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html" rel="alternate" type="text/html" title="Install Kenwood TM-D700 in a Jeep JK" /><published>2015-02-03T10:52:28+00:00</published><updated>2015-02-03T10:52:28+00:00</updated><id>https://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio</id><content type="html" xml:base="https://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html"><![CDATA[<p>I have had my ham radio license (WØPGK) for 13 years, and have always had a mobile station installed on my vehicles.  Over the years, I have upgraded both my vehicles and my radio equiptment.  Today I am driving a 2008 Jeep JK Rubicon and running a Kenwood TM-D700.  I really don’t have a step by step here, but I can post what I have done, with photos so you can get an idea on how to install it on your own Jeep.</p>
 
-</description>
-        <pubDate>Tue, 10 Feb 2015 01:15:28 -0800</pubDate>
-        <link>https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/linux/zfs/vmware/2015/02/10/linux-zfs-resize.html</guid>
-        
-        
-        <category>linux</category>
-        
-        <category>zfs</category>
-        
-        <category>vmware</category>
-        
-      </item>
-    
-      <item>
-        <title>Install Kenwood TM-D700 in a Jeep JK</title>
-        <description>&lt;p&gt;I have had my ham radio license (WØPGK) for 13 years, and have always had a mobile station installed on my vehicles.  Over the years, I have upgraded both my vehicles and my radio equiptment.  Today I am driving a 2008 Jeep JK Rubicon and running a Kenwood TM-D700.  I really don’t have a step by step here, but I can post what I have done, with photos so you can get an idea on how to install it on your own Jeep.&lt;/p&gt;
+<p>To start with, I will show you the center console.  You can see that I ran an external speaker up here since the unit speaker is under the seat.
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_28_10.jpg" alt="image" /></p>
 
-&lt;p&gt;To start with, I will show you the center console.  You can see that I ran an external speaker up here since the unit speaker is under the seat.
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_28_10.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>I placed the ham radio mic to the left, which is still easy to reach
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_27_28.jpg" alt="image" /></p>
 
-&lt;p&gt;I placed the ham radio mic to the left, which is still easy to reach
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_27_28.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>I extended the mic cable with a RJ45 connector 
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_33_00.jpg" alt="image" /></p>
 
-&lt;p&gt;I extended the mic cable with a RJ45 connector 
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_33_00.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>I located the the radio base unit under the passenger seat.  I would like to change this in the furture as this has no water proofing if I ever get into water deep enough to reach this.
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_31_02.jpg" alt="image" /></p>
 
-&lt;p&gt;I located the the radio base unit under the passenger seat.  I would like to change this in the furture as this has no water proofing if I ever get into water deep enough to reach this.
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_31_02.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>As for power source, I have one lead connected to the battery.
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_38_45.jpg" alt="image" /></p>
 
-&lt;p&gt;As for power source, I have one lead connected to the battery.
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_38_45.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>I run that power lead through the firewall through a well know access hole next to the door
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_35_44.jpg" alt="image" /></p>
 
-&lt;p&gt;I run that power lead through the firewall through a well know access hole next to the door
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_35_44.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>The power is connected to a Automatic power switch that power everything down 10 minutes after the engine has been shut off.
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_33_00.jpg" alt="image" /></p>
 
-&lt;p&gt;The power is connected to a Automatic power switch that power everything down 10 minutes after the engine has been shut off.
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_33_00.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>The power is then routed to a distribution block which connects the GPS, phone changer, CB radio and ham radio.
+<img src="/images/Jeep_HamRadio_install/2014-09-14%2009_32_03.jpg" alt="image" /></p>
 
-&lt;p&gt;The power is then routed to a distribution block which connects the GPS, phone changer, CB radio and ham radio.
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14%2009_32_03.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+<p>As for the mentioned GPS, I have it up on top of one of the A pillers tucked away and out of sight.
+<img src="/images/Jeep_HamRadio_install/2014-09-14_11_08_21.jpg" alt="image" /></p>
 
-&lt;p&gt;As for the mentioned GPS, I have it up on top of one of the A pillers tucked away and out of sight.
-&lt;img src=&quot;/images/Jeep_HamRadio_install/2014-09-14_11_08_21.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Note, that everything uses Power Poles which makes connecting power lead extremelly easy.  These are not required, but recommmend.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 03 Feb 2015 02:52:28 -0800</pubDate>
-        <link>https://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/jeep/ham/radio/2015/02/03/jeep-ham-radio.html</guid>
-        
-        
-        <category>jeep</category>
-        
-        <category>ham</category>
-        
-        <category>radio</category>
-        
-      </item>
-    
-      <item>
-        <title>Moab Videos Uploaded</title>
-        <description>&lt;p&gt;I have been wanting to do this for a while, and finally got around to it.  I have uploaded 2009, 2010, 2011, and 2012 Moab Videos to my &lt;a href=&quot;https://www.youtube.com/user/pkringle/&quot;&gt;YouTube Channel&lt;/a&gt;. Sadly, 2015 will not happen this year, but we are planning on 2016 trip.  2016 should be epic as we have some surprises planned for that year!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 31 Jan 2015 04:03:28 -0800</pubDate>
-        <link>https://www.kringles.org/jeep/2015/01/31/moab-videos.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/jeep/2015/01/31/moab-videos.html</guid>
-        
-        
-        <category>jeep</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Kringles.org First Post!</title>
-        <description>&lt;p&gt;Attempting to setup a personal site again.  It has been a while since I have done this.  I am hoping to post things that I have done or discovered in either my personal or professional life.  Stay tuned for updates.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Jan 2015 02:22:56 -0800</pubDate>
-        <link>https://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html</guid>
-        
-        
-        <category>site</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+<p>Note, that everything uses Power Poles which makes connecting power lead extremelly easy.  These are not required, but recommmend.</p>]]></content><author><name>Peter</name></author><category term="jeep" /><category term="ham" /><category term="radio" /><summary type="html"><![CDATA[I have had my ham radio license (WØPGK) for 13 years, and have always had a mobile station installed on my vehicles. Over the years, I have upgraded both my vehicles and my radio equiptment. Today I am driving a 2008 Jeep JK Rubicon and running a Kenwood TM-D700. I really don’t have a step by step here, but I can post what I have done, with photos so you can get an idea on how to install it on your own Jeep.]]></summary></entry><entry><title type="html">Moab Videos Uploaded</title><link href="https://www.kringles.org/jeep/2015/01/31/moab-videos.html" rel="alternate" type="text/html" title="Moab Videos Uploaded" /><published>2015-01-31T12:03:28+00:00</published><updated>2015-01-31T12:03:28+00:00</updated><id>https://www.kringles.org/jeep/2015/01/31/moab-videos</id><content type="html" xml:base="https://www.kringles.org/jeep/2015/01/31/moab-videos.html"><![CDATA[<p>I have been wanting to do this for a while, and finally got around to it.  I have uploaded 2009, 2010, 2011, and 2012 Moab Videos to my <a href="https://www.youtube.com/user/pkringle/">YouTube Channel</a>. Sadly, 2015 will not happen this year, but we are planning on 2016 trip.  2016 should be epic as we have some surprises planned for that year!</p>]]></content><author><name>Peter</name></author><category term="jeep" /><summary type="html"><![CDATA[I have been wanting to do this for a while, and finally got around to it. I have uploaded 2009, 2010, 2011, and 2012 Moab Videos to my YouTube Channel. Sadly, 2015 will not happen this year, but we are planning on 2016 trip. 2016 should be epic as we have some surprises planned for that year!]]></summary></entry><entry><title type="html">Welcome to Kringles.org First Post!</title><link href="https://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Kringles.org First Post!" /><published>2015-01-30T10:22:56+00:00</published><updated>2015-01-30T10:22:56+00:00</updated><id>https://www.kringles.org/site/2015/01/30/welcome-to-jekyll</id><content type="html" xml:base="https://www.kringles.org/site/2015/01/30/welcome-to-jekyll.html"><![CDATA[<p>Attempting to setup a personal site again.  It has been a while since I have done this.  I am hoping to post things that I have done or discovered in either my personal or professional life.  Stay tuned for updates.</p>]]></content><author><name>Peter</name></author><category term="site" /><summary type="html"><![CDATA[Attempting to setup a personal site again. It has been a while since I have done this. I am hoping to post things that I have done or discovered in either my personal or professional life. Stay tuned for updates.]]></summary></entry></feed>
