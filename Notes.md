@@ -8,7 +8,7 @@ bundle exec jekyll serve --host=0.0.0.0
 cd ../pkringle.github.io
 git pull
 cd ../kringles.org-staging
-jekyll build -d ../pkringle.github.io/
+bundle exec jekyll build -d ../defunctknightsurfer.github.io/
 cd ../pkringle.github.io
 git add .
 git commit -m "Something cool was done here"
