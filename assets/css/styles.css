@@ -237,7 +237,6 @@ strong {
     margin: 1em !important;
   }
 }
-
 /* TYPE_ON_STRAP Main style sheet */
 /* External */
 /*!
@@ -273,12 +272,12 @@ strong {
 .fa-solid,
 .far,
 .fa-regular {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
 }
 
 .fab,
 .fa-brands {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
 }
 
 .fa-1x {
@@ -367,7 +366,6 @@ strong {
   margin-left: var(--fa-li-margin, 2.5em);
   padding-left: 0;
 }
-
 .fa-ul > li {
   position: relative;
 }
@@ -476,14 +474,14 @@ strong {
 
 @media (prefers-reduced-motion: reduce) {
   .fa-beat,
-.fa-bounce,
-.fa-fade,
-.fa-beat-fade,
-.fa-flip,
-.fa-pulse,
-.fa-shake,
-.fa-spin,
-.fa-spin-pulse {
+  .fa-bounce,
+  .fa-fade,
+  .fa-beat-fade,
+  .fa-flip,
+  .fa-pulse,
+  .fa-shake,
+  .fa-spin,
+  .fa-spin-pulse {
     animation-delay: -1ms;
     animation-duration: 1ms;
     animation-iteration-count: 1;
@@ -491,7 +489,6 @@ strong {
     transition-duration: 0s;
   }
 }
-
 @keyframes fa-beat {
   0%, 90% {
     transform: scale(1);
@@ -500,7 +497,6 @@ strong {
     transform: scale(var(--fa-beat-scale, 1.25));
   }
 }
-
 @keyframes fa-bounce {
   0% {
     transform: scale(1, 1) translateY(0);
@@ -524,13 +520,11 @@ strong {
     transform: scale(1, 1) translateY(0);
   }
 }
-
 @keyframes fa-fade {
   50% {
     opacity: var(--fa-fade-opacity, 0.4);
   }
 }
-
 @keyframes fa-beat-fade {
   0%, 100% {
     opacity: var(--fa-beat-fade-opacity, 0.4);
@@ -541,13 +535,11 @@ strong {
     transform: scale(var(--fa-beat-fade-scale, 1.125));
   }
 }
-
 @keyframes fa-flip {
   50% {
     transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
   }
 }
-
 @keyframes fa-shake {
   0% {
     transform: rotate(-15deg);
@@ -577,7 +569,6 @@ strong {
     transform: rotate(0deg);
   }
 }
-
 @keyframes fa-spin {
   0% {
     transform: rotate(0deg);
@@ -586,7 +577,6 @@ strong {
     transform: rotate(360deg);
   }
 }
-
 .fa-rotate-90 {
   transform: rotate(90deg);
 }
@@ -649,43 +639,43 @@ strong {
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
 .fa-0::before {
-  content: "\30";
+  content: "\30 ";
 }
 
 .fa-1::before {
-  content: "\31";
+  content: "\31 ";
 }
 
 .fa-2::before {
-  content: "\32";
+  content: "\32 ";
 }
 
 .fa-3::before {
-  content: "\33";
+  content: "\33 ";
 }
 
 .fa-4::before {
-  content: "\34";
+  content: "\34 ";
 }
 
 .fa-5::before {
-  content: "\35";
+  content: "\35 ";
 }
 
 .fa-6::before {
-  content: "\36";
+  content: "\36 ";
 }
 
 .fa-7::before {
-  content: "\37";
+  content: "\37 ";
 }
 
 .fa-8::before {
-  content: "\38";
+  content: "\38 ";
 }
 
 .fa-9::before {
-  content: "\39";
+  content: "\39 ";
 }
 
 .fa-fill-drip::before {
@@ -705,7 +695,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-at::before {
-  content: "\40";
+  content: "\@";
 }
 
 .fa-trash-can::before {
@@ -1073,7 +1063,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-k::before {
-  content: "\4b";
+  content: "K";
 }
 
 .fa-landmark-flag::before {
@@ -1213,7 +1203,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-w::before {
-  content: "\57";
+  content: "W";
 }
 
 .fa-earth-africa::before {
@@ -1613,7 +1603,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-asterisk::before {
-  content: "\2a";
+  content: "\*";
 }
 
 .fa-square-check::before {
@@ -1953,7 +1943,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-i::before {
-  content: "\49";
+  content: "I";
 }
 
 .fa-hryvnia-sign::before {
@@ -1981,7 +1971,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-v::before {
-  content: "\56";
+  content: "V";
 }
 
 .fa-bangladeshi-taka-sign::before {
@@ -2057,11 +2047,11 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-q::before {
-  content: "\51";
+  content: "Q";
 }
 
 .fa-g::before {
-  content: "\47";
+  content: "G";
 }
 
 .fa-notes-medical::before {
@@ -2205,7 +2195,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-e::before {
-  content: "\45";
+  content: "E";
 }
 
 .fa-pen-clip::before {
@@ -2285,7 +2275,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-c::before {
-  content: "\43";
+  content: "C";
 }
 
 .fa-tablet-button::before {
@@ -2613,7 +2603,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-l::before {
-  content: "\4c";
+  content: "L";
 }
 
 .fa-fire::before {
@@ -3697,7 +3687,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-z::before {
-  content: "\5a";
+  content: "Z";
 }
 
 .fa-person-skiing::before {
@@ -3713,7 +3703,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-a::before {
-  content: "\41";
+  content: "A";
 }
 
 .fa-temperature-arrow-down::before {
@@ -3733,7 +3723,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-p::before {
-  content: "\50";
+  content: "P";
 }
 
 .fa-snowflake::before {
@@ -3825,7 +3815,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-question::before {
-  content: "\3f";
+  content: "\?";
 }
 
 .fa-file-signature::before {
@@ -3917,7 +3907,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-f::before {
-  content: "\46";
+  content: "F";
 }
 
 .fa-leaf::before {
@@ -4077,7 +4067,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-h::before {
-  content: "\48";
+  content: "H";
 }
 
 .fa-tarp::before {
@@ -4169,7 +4159,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-r::before {
-  content: "\52";
+  content: "R";
 }
 
 .fa-temperature-quarter::before {
@@ -4925,7 +4915,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-j::before {
-  content: "\4a";
+  content: "J";
 }
 
 .fa-users-viewfinder::before {
@@ -4965,7 +4955,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-o::before {
-  content: "\4f";
+  content: "O";
 }
 
 .fa-suitcase-medical::before {
@@ -5529,7 +5519,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-u::before {
-  content: "\55";
+  content: "U";
 }
 
 .fa-square-root-variable::before {
@@ -5569,7 +5559,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-s::before {
-  content: "\53";
+  content: "S";
 }
 
 .fa-timeline::before {
@@ -5765,7 +5755,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-n::before {
-  content: "\4e";
+  content: "N";
 }
 
 .fa-cable-car::before {
@@ -5909,7 +5899,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-b::before {
-  content: "\42";
+  content: "B";
 }
 
 .fa-file-medical::before {
@@ -6161,7 +6151,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-less-than::before {
-  content: "\3c";
+  content: "\<";
 }
 
 .fa-angle-down::before {
@@ -6373,7 +6363,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-greater-than::before {
-  content: "\3e";
+  content: "\>";
 }
 
 .fa-person-swimming::before {
@@ -6797,7 +6787,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-y::before {
-  content: "\59";
+  content: "Y";
 }
 
 .fa-person-snowboarding::before {
@@ -6921,11 +6911,11 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-plus::before {
-  content: "\2b";
+  content: "\+";
 }
 
 .fa-add::before {
-  content: "\2b";
+  content: "\+";
 }
 
 .fa-expand::before {
@@ -7025,7 +7015,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-equals::before {
-  content: "\3d";
+  content: "\=";
 }
 
 .fa-blender::before {
@@ -7221,11 +7211,11 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-percent::before {
-  content: "\25";
+  content: "\%";
 }
 
 .fa-percentage::before {
-  content: "\25";
+  content: "\%";
 }
 
 .fa-truck-moving::before {
@@ -7549,7 +7539,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-hashtag::before {
-  content: "\23";
+  content: "\#";
 }
 
 .fa-up-right-and-down-left-from-center::before {
@@ -7565,7 +7555,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-t::before {
-  content: "\54";
+  content: "T";
 }
 
 .fa-hippo::before {
@@ -7789,7 +7779,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-m::before {
-  content: "\4d";
+  content: "M";
 }
 
 .fa-table-list::before {
@@ -8281,7 +8271,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-exclamation::before {
-  content: "\21";
+  content: "\!";
 }
 
 .fa-arrows-spin::before {
@@ -8305,19 +8295,19 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-dollar-sign::before {
-  content: "\24";
+  content: "\$";
 }
 
 .fa-dollar::before {
-  content: "\24";
+  content: "\$";
 }
 
 .fa-usd::before {
-  content: "\24";
+  content: "\$";
 }
 
 .fa-x::before {
-  content: "\58";
+  content: "X";
 }
 
 .fa-magnifying-glass-dollar::before {
@@ -8369,7 +8359,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa-d::before {
-  content: "\44";
+  content: "D";
 }
 
 .fa-stapler::before {
@@ -8488,18 +8478,17 @@ readers do not read off random characters that represent icons */
  * Copyright 2024 Fonticons, Inc.
  */
 :root, :host {
-  --fa-style-family-brands: 'Font Awesome 6 Brands';
-  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: url("../fonts/font-awesome/fa-brands-400.woff2") format("woff2"), url("../fonts/font-awesome/fa-brands-400.ttf") format("truetype");
 }
-
 .fab,
 .fa-brands {
   font-weight: 400;
@@ -10611,18 +10600,17 @@ readers do not read off random characters that represent icons */
  * Copyright 2024 Fonticons, Inc.
  */
 :root, :host {
-  --fa-style-family-classic: 'Font Awesome 6 Free';
-  --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Free';
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: url("../fonts/font-awesome/fa-regular-400.woff2") format("woff2"), url("../fonts/font-awesome/fa-regular-400.ttf") format("truetype");
 }
-
 .far,
 .fa-regular {
   font-weight: 400;
@@ -10634,18 +10622,17 @@ readers do not read off random characters that represent icons */
  * Copyright 2024 Fonticons, Inc.
  */
 :root, :host {
-  --fa-style-family-classic: 'Font Awesome 6 Free';
-  --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free';
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: 900;
   font-display: block;
   src: url("../fonts/font-awesome/fa-solid-900.woff2") format("woff2"), url("../fonts/font-awesome/fa-solid-900.ttf") format("truetype");
 }
-
 .fas,
 .fa-solid {
   font-weight: 900;
@@ -10661,7 +10648,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-envelope-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10670,7 +10657,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-star-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10691,7 +10678,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-trash-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10704,7 +10691,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10713,7 +10700,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-clock-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10722,7 +10709,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-arrow-circle-o-down {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10731,7 +10718,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-arrow-circle-o-up {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10740,7 +10727,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-play-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10761,7 +10748,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-list-alt {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10778,7 +10765,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-picture-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10787,7 +10774,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-photo {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10796,7 +10783,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-image {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10809,7 +10796,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-pencil-square-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10818,7 +10805,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-edit {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10831,7 +10818,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-check-square-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10844,7 +10831,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-times-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10853,7 +10840,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-check-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10874,12 +10861,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-eye {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
 .fa.fa-eye-slash {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10908,7 +10895,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-twitter-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -10917,7 +10904,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-facebook-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -10930,7 +10917,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-thumbs-o-up {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10939,7 +10926,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-thumbs-o-down {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10948,7 +10935,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-heart-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -10961,7 +10948,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-linkedin-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -10982,7 +10969,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-github-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -10991,7 +10978,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-lemon-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11000,7 +10987,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-square-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11009,7 +10996,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-bookmark-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11018,12 +11005,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-twitter {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-facebook {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11032,7 +11019,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-facebook-f {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11041,12 +11028,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-github {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-credit-card {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11055,7 +11042,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hdd-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11064,7 +11051,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-o-right {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11073,7 +11060,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-o-left {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11082,7 +11069,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-o-up {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11091,7 +11078,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-o-down {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11124,7 +11111,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-files-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11133,7 +11120,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-floppy-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11142,7 +11129,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-save {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11163,12 +11150,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-pinterest {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-pinterest-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11177,7 +11164,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-google-plus-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11186,7 +11173,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-google-plus {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11211,7 +11198,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-linkedin {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11236,7 +11223,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-comment-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11245,7 +11232,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-comments-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11262,7 +11249,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-lightbulb-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11283,7 +11270,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-bell-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11296,7 +11283,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-text-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11305,7 +11292,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-building-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11314,7 +11301,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hospital-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11335,7 +11322,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11348,12 +11335,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-github-alt {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-folder-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11362,7 +11349,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-folder-open-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11371,7 +11358,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-smile-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11380,7 +11367,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-frown-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11389,7 +11376,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-meh-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11398,7 +11385,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-keyboard-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11407,7 +11394,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-flag-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11420,7 +11407,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-star-half-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11429,7 +11416,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-star-half-empty {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11438,7 +11425,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-star-half-full {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11459,7 +11446,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-calendar-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11468,17 +11455,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-maxcdn {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-html5 {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-css3 {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11487,7 +11474,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-minus-square-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11512,12 +11499,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-compass {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
 .fa.fa-caret-square-o-down {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11526,7 +11513,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-toggle-down {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11535,7 +11522,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-caret-square-o-up {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11544,7 +11531,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-toggle-up {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11553,7 +11540,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-caret-square-o-right {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11562,7 +11549,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-toggle-right {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11583,11 +11570,11 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-usd:before {
-  content: "\24";
+  content: "\$";
 }
 
 .fa.fa-dollar:before {
-  content: "\24";
+  content: "\$";
 }
 
 .fa.fa-inr:before {
@@ -11635,12 +11622,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-btc {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-bitcoin {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11677,7 +11664,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-youtube-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11686,17 +11673,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-youtube {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-xing {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-xing-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11705,7 +11692,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-youtube-play {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11714,37 +11701,37 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-dropbox {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-stack-overflow {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-instagram {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-flickr {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-adn {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-bitbucket {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-bitbucket-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11753,12 +11740,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-tumblr {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-tumblr-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11783,52 +11770,52 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-apple {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-windows {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-android {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-linux {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-dribbble {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-skype {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-foursquare {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-trello {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-gratipay {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-gittip {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11837,7 +11824,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-sun-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11846,7 +11833,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-moon-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11855,32 +11842,32 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-vk {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-weibo {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-renren {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-pagelines {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-stack-exchange {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-arrow-circle-o-right {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11889,7 +11876,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-arrow-circle-o-left {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11898,7 +11885,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-caret-square-o-left {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11907,7 +11894,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-toggle-left {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11916,7 +11903,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-dot-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11925,7 +11912,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-vimeo-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11942,7 +11929,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-plus-square-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -11951,17 +11938,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-slack {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-wordpress {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-openid {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -11978,22 +11965,22 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-yahoo {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-google {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-reddit {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-reddit-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12002,52 +11989,52 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-stumbleupon-circle {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-stumbleupon {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-delicious {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-digg {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-pied-piper-pp {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-pied-piper-alt {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-drupal {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-joomla {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-behance {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-behance-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12056,12 +12043,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-steam {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-steam-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12078,22 +12065,22 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-spotify {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-deviantart {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-soundcloud {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-file-pdf-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12102,7 +12089,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-word-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12111,7 +12098,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-excel-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12120,7 +12107,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-powerpoint-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12129,7 +12116,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-image-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12138,7 +12125,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-photo-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12147,7 +12134,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-picture-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12156,7 +12143,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-archive-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12165,7 +12152,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-zip-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12174,7 +12161,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-audio-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12183,7 +12170,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-sound-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12192,7 +12179,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-video-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12201,7 +12188,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-movie-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12210,7 +12197,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-file-code-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12219,17 +12206,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-vine {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-codepen {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-jsfiddle {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12254,12 +12241,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-rebel {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-ra {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12268,7 +12255,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-resistance {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12277,12 +12264,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-empire {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-ge {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12291,7 +12278,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-git-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12300,17 +12287,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-git {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-hacker-news {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-y-combinator-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12319,7 +12306,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-yc-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12328,22 +12315,22 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-tencent-weibo {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-qq {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-weixin {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-wechat {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12356,7 +12343,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-paper-plane-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12365,7 +12352,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-send-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12374,7 +12361,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-circle-thin {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12387,7 +12374,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-futbol-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12396,7 +12383,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-soccer-ball-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12405,22 +12392,22 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-slideshare {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-twitch {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-yelp {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-newspaper-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12429,47 +12416,47 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-paypal {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-google-wallet {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc-visa {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc-mastercard {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc-discover {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc-amex {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc-paypal {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc-stripe {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-bell-slash-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12482,7 +12469,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-copyright {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12503,12 +12490,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-lastfm {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-lastfm-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12517,17 +12504,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-ioxhost {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-angellist {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12548,52 +12535,52 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-buysellads {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-connectdevelop {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-dashcube {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-forumbee {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-leanpub {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-sellsy {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-shirtsinbulk {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-simplybuilt {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-skyatlas {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-diamond {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12614,7 +12601,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-facebook-official {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12623,12 +12610,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-pinterest-p {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-whatsapp {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12637,22 +12624,22 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-viacoin {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-medium {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-y-combinator {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-yc {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12661,17 +12648,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-optin-monster {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-opencart {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-expeditedssl {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12700,17 +12687,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-object-group {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
 .fa.fa-object-ungroup {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
 .fa.fa-sticky-note-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12719,17 +12706,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-cc-jcb {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-cc-diners-club {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-clone {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12750,7 +12737,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-rock-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12759,7 +12746,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-grab-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12768,7 +12755,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-paper-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12777,7 +12764,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-stop-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12786,7 +12773,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-scissors-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12795,7 +12782,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-lizard-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12804,7 +12791,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-spock-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12813,7 +12800,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-pointer-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12822,7 +12809,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-hand-peace-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12831,32 +12818,32 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-registered {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
 .fa.fa-creative-commons {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-gg {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-gg-circle {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-odnoklassniki {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-odnoklassniki-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12865,37 +12852,37 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-get-pocket {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-wikipedia-w {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-safari {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-chrome {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-firefox {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-opera {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-internet-explorer {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12904,22 +12891,22 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-contao {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-500px {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-amazon {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-calendar-plus-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12928,7 +12915,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-calendar-minus-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12937,7 +12924,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-calendar-times-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12946,7 +12933,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-calendar-check-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12955,7 +12942,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-map-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12968,7 +12955,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-commenting-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -12977,12 +12964,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-houzz {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-vimeo {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -12991,22 +12978,22 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-black-tie {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-fonticons {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-reddit-alien {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-edge {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13015,42 +13002,42 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-codiepie {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-modx {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-fort-awesome {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-usb {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-product-hunt {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-mixcloud {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-scribd {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-pause-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13059,7 +13046,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-stop-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13068,37 +13055,37 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-bluetooth {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-bluetooth-b {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-gitlab {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-wpbeginner {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-wpforms {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-envira {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-wheelchair-alt {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13107,7 +13094,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-question-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13132,12 +13119,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-glide {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-glide-g {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13146,12 +13133,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-viadeo {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-viadeo-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13160,12 +13147,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-snapchat {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-snapchat-ghost {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13174,7 +13161,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-snapchat-square {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13183,27 +13170,27 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-pied-piper {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-first-order {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-yoast {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-themeisle {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-google-plus-official {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13212,7 +13199,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-google-plus-circle {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13221,12 +13208,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-font-awesome {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-fa {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13235,7 +13222,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-handshake-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13244,7 +13231,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-envelope-open-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13253,12 +13240,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-linode {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-address-book-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13271,7 +13258,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-address-card-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13280,7 +13267,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-vcard-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13289,7 +13276,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-user-circle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13298,7 +13285,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-user-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13307,7 +13294,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-id-badge {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13316,7 +13303,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-id-card-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13325,7 +13312,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-drivers-license-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13334,17 +13321,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-quora {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-free-code-camp {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-telegram {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13381,12 +13368,12 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-window-maximize {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
 .fa.fa-window-restore {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13395,7 +13382,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-window-close-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13404,7 +13391,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-times-rectangle-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13413,32 +13400,32 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-bandcamp {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-grav {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-etsy {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-imdb {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-ravelry {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-eercast {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
@@ -13447,7 +13434,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-snowflake-o {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 400;
 }
 
@@ -13456,17 +13443,17 @@ readers do not read off random characters that represent icons */
 }
 
 .fa.fa-superpowers {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-wpexplorer {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
 .fa.fa-meetup {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: "Font Awesome 6 Brands";
   font-weight: 400;
 }
 
