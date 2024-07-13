@@ -5,7 +5,7 @@ jekyll setup for kringles.org
 bundle exec jekyll serve --host=0.0.0.0
 
 # How to update prod
-cd ../pkringle.github.io
+cd ../defunctknightsurfer.github.io
 git pull
 cd ../kringles.org-staging
 bundle exec jekyll build -d ../defunctknightsurfer.github.io/
