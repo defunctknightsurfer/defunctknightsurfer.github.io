@@ -9,7 +9,7 @@ cd ../defunctknightsurfer.github.io
 git pull
 cd ../kringles.org-staging
 bundle exec jekyll build -d ../defunctknightsurfer.github.io/
-cd ../pkringle.github.io
+cd ../defunctknightsurfer.github.io
 git add .
 git commit -m "Something cool was done here"
 git push origin master
